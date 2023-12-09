@@ -1,4 +1,4 @@
-FROM node:19
+FROM node:latest
 ENV PORT 8080
 WORKDIR /app
 RUN chmod +rw /
