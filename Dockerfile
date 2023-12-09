@@ -1,7 +1,7 @@
 FROM node:latest
 ENV PORT 8080
-WORKDIR /app
-RUN chown -R 1003490000:0 "$HOME/.npm"
+ENV HOME=/home/app
+WORKDIR $HOME
 COPY package.json .
 RUN npm install
 COPY . .
