@@ -6,7 +6,7 @@ import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 const Namebox: React.FC = () => {
     return (
         <div className="namebox">
-            <img className="myimg" src="./public/img/ella.png" />
+            <img className="myimg" src="./img/ella.png" />
             <h1 className="name">Ella Soccoli</h1>
         </div>
     )
